@@ -12,8 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/get-data/', (req, res) => {
-    const { surcursal } = req.query.area;
-    let url_base = `https://maxiconsumo.com/sucursal_capital/${surcursal}`;
+    let url_base = `https://maxiconsumo.com/sucursal_capital/${req.query.area}`;
     axios.get(url_base).then(response => {
 
         const html = response.data;
