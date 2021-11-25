@@ -1,0 +1,33 @@
+{
+  "name": "web_scrapping",
+  "version": "1.0.0",
+  "description": "Este webscraping para la tienda de maximoconsumo.com",
+  "main": "Scrapping.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon Scrapping.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShonnyAIO/maximoconsumo-scraping.git"
+  },
+  "keywords": [
+    "web_scrapping",
+    "tiendas",
+    "sucursales"
+  ],
+  "author": "Jonathan Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShonnyAIO/maximoconsumo-scraping/issues"
+  },
+  "homepage": "https://github.com/ShonnyAIO/maximoconsumo-scraping#readme"
+}
